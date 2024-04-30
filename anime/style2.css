@@ -21,7 +21,7 @@ body{
 }
 img {
     -webkit-filter: opacity(30%); /* Chrome, Safari, Opera */
-    filter: opacity(70%);
+    filter: opacity(90%);
 }
 div#output {
     display: flex;
