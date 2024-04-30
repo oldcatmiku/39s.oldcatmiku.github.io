@@ -11,8 +11,17 @@
     font-weight: normal;
 }
 body{
+    background-image: url(background.jpg);
     background-color: rgb(31,31,31);
     color: rgb(212, 212, 212);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img {
+    -webkit-filter: opacity(30%); /* Chrome, Safari, Opera */
+    filter: opacity(70%);
 }
 div#output {
     display: flex;
@@ -42,7 +51,7 @@ img{
     font-size: 30px;
     text-align: center;
     font-family: lolita;
-    margin-bottom: 10%
+    margin-bottom: 500px
 }
 .circle-container {
     width: fit-content;
