@@ -17,7 +17,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 img {
     -webkit-filter: opacity(30%); /* Chrome, Safari, Opera */
@@ -51,7 +51,7 @@ img{
     font-size: 30px;
     text-align: center;
     font-family: lolita;
-    margin-bottom: 500px
+    margin-bottom: 610px
 }
 .circle-container {
     width: fit-content;
