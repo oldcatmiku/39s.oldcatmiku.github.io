@@ -1,7 +1,7 @@
 var animeList= [
 {
     "name":"倾物语 <a href='https://www.vdm1.com/video/131720.html'> 第2地址 </a>",
-	"img":"https://img3.doubanio.com/view/subject/l/public/s27889383.jpg", 
+	"img":"anime/posters/02.jpg", 
     "url":"https://www.acfun.cn/bangumi/aa6002987",
 },
 {
