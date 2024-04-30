@@ -10,7 +10,10 @@
     font-style: normal;
     font-weight: normal;
 }
-
+body{
+    background-color: rgb(31,31,31);
+    color: rgb(212, 212, 212);;
+}
 div#output {
     display: flex;
     flex-wrap: wrap;
@@ -29,8 +32,8 @@ img{
 }
 .bord {
     display: grid;
-    margin: 20px;
-    border: 2px solid #29fb6f42;
+    margin: 17px;
+    border: 3px solid rgb(0 163 212 / 47%);
     border-radius: 2%;
     width: 230px;
     justify-items: center;
