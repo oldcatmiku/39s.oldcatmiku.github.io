@@ -1,5 +1,10 @@
 var animeList= [
 {
+    "name":"囮物语 <a href='https://www.vdm1.com/video/131730.html'> 第2地址 </a>",
+	"img":"https://cdn.yinghuazy.xyz/upload/vod/20201208-1/03cfa2f3350172395f080bdeb9cf529d.jpg", 
+    "url":"https://tse4-mm.cn.bing.net/th/id/OIP-C.7WWDzMekbbwLbDccEMhkFAAAAA?w=122&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+},
+{
     "name":"憧憬成为魔法少女",
 	"img":"https://img.moegirl.org.cn/common/thumb/6/68/%E6%86%A7%E6%86%AC%E6%88%90%E4%B8%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%8A%A8%E7%94%BB%E5%8C%96%E5%86%B3%E5%AE%9A%E8%B4%BA%E5%9B%BE3.jpg/560px-%E6%86%A7%E6%86%AC%E6%88%90%E4%B8%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%8A%A8%E7%94%BB%E5%8C%96%E5%86%B3%E5%AE%9A%E8%B4%BA%E5%9B%BE3.jpg", 
     "url":"https://www.vdm1.com/video/1110730.html",
