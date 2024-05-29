@@ -5,14 +5,14 @@ var animeList= [
     "url":"https://www.acfun.cn/bangumi/aa6002988_36188_1737694",
 },
 {
-    "name":"憧憬成为魔法少女",
-	"img":"https://img.moegirl.org.cn/common/thumb/6/68/%E6%86%A7%E6%86%AC%E6%88%90%E4%B8%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%8A%A8%E7%94%BB%E5%8C%96%E5%86%B3%E5%AE%9A%E8%B4%BA%E5%9B%BE3.jpg/560px-%E6%86%A7%E6%86%AC%E6%88%90%E4%B8%BA%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%8A%A8%E7%94%BB%E5%8C%96%E5%86%B3%E5%AE%9A%E8%B4%BA%E5%9B%BE3.jpg", 
-    "url":"https://www.vdm1.com/video/1110730.html",
+    "name":"哭泣少女乐队",
+	"img":"anime/posters/03.jpg", 
+    "url":"https://www.vdm1.com/video/1130800.html",
 },
 {
-    "name":"倾物语 <a href='https://www.vdm1.com/video/131720.html'> 第2地址 </a>",
-	"img":"anime/posters/02.jpg", 
-    "url":"https://www.acfun.cn/bangumi/aa6002987",
+    "name":"憧憬成为魔法少女",
+	"img":"anime/posters/04.webp", 
+    "url":"https://www.vdm1.com/video/1110730.html",
 },
 {
 	"name":"吹响！上低音号",
@@ -68,6 +68,11 @@ var animeList= [
 	"name":"猫物语（白）",
 	"img":"https://th.bing.com/th/id/R.ac4b457283566374e08ae3c9da91f52e?rik=aY0Ex43LgtP%2fug&riu=http%3a%2f%2fi1.hdslb.com%2fbfs%2farchive%2fabef8dbb4a6f58b869bb17d18c8c4ea6a86cf3a4.jpg&ehk=Mi6B9QMpWj1swZfPY7uCci6o65jFdZN4k1wkxQIYiqY%3d&risl=&pid=ImgRaw&r=0", 
     "url":"https://www.acfun.cn/bangumi/aa6002986_36188_1737690",
+},
+{
+    "name":"倾物语 <a href='https://www.vdm1.com/video/131720.html'> 第2地址 </a>",
+	"img":"anime/posters/02.jpg", 
+    "url":"https://www.acfun.cn/bangumi/aa6002987",
 },
 ];
 

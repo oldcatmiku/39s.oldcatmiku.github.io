@@ -11,7 +11,7 @@
     font-weight: normal;
 }
 body{
-    background-image: url(background.png);
+    /* background-image: url(background.png); */
     background-color: rgb(31,31,31);
     color: rgb(212, 212, 212);
     background-position: center;
