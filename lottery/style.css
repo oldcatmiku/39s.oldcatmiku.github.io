@@ -2,6 +2,19 @@
 	font-family: 'bold'; 
 	src: url('Britannic_Bold_T.ttf'); 
   }
+@font-face {
+	font-family: 'lolita'; 
+	src: url('lolita.ttf'); 
+  }
+@keyframes nonlinear-animation-3 {
+    0% {
+        background-position: 0 0;
+        }
+    100% {
+        background-position: 100% 0;
+
+    }
+}
 body{
 	display: flex;
     background: url(bg_virtualsinger.png);
@@ -19,11 +32,9 @@ body{
 	line-height: 1;
 }
 table {
-	border-collapse: collapse;
 	min-width: 700px;
 	max-width: 750px;
   }
-  
   th,
   td {
 	border: 2px solid black;
@@ -58,6 +69,9 @@ table {
 	-3px 3px #000;
 	z-index:1;
 }
+.name{
+	font-size: 35px;
+}
 .pink{
 	background-color: rgba(246,181,214,.7);
 }
@@ -70,6 +84,27 @@ table {
 .blue{
 	background-color: rgba(219,232,243,.7);
 }
+.bg{
+	background-color: #000;
+	border-radius: 9px;
+	padding: 13px;
+}
+.header{
+	font-family: lolita;
+	background: -webkit-linear-gradient(left, #ffffff, #E6D205 25%, #ffffff 50%, #dad280 75%, #ffffff);
+	color: transparent;
+	background-clip: text;
+	background-size: 200% 100%;
+	font-size: 40px;
+	text-align: center;
+	animation: nonlinear-animation-3 1.5s infinite linear;
+}
+.result{
+	max-height: 136px;
+	max-width: 130px;
+	border: none;
+	padding: 10px;
+}
 @media screen and (max-width: 767px) {
 	body{
 		font-size: 28px;
@@ -78,15 +113,26 @@ table {
 		max-width: 60px;
 	}
 	table{
-		min-width: 300px;
+		min-width: 400px;
 	}
 	.font{
         font-size: 25px;
         position: relative;
         top: -16px;
         left: 29px;
+		text-shadow: 2px 0 #000,
+		-2px 0 #000,
+		0 2px #000,
+		0 -2px #000,
+		2px 2px #000,
+		-2px -2px #000,
+		2px -2px #000,
+		-2px 2px #000;
 	}
 	.table{
 		line-height: 0.8;
+	}
+	.name{
+		font-size: 20px;
 	}
 }
