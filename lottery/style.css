@@ -72,18 +72,21 @@ table {
 }
 @media screen and (max-width: 767px) {
 	body{
-		font-size: 38px;
+		font-size: 28px;
 	}
 	.imgs{
-		max-width: 80px;
+		max-width: 60px;
 	}
 	table{
-		min-width: 500px;
+		min-width: 300px;
 	}
 	.font{
-		font-size: 32px;
-		position: relative;
-		top: -20px;
-		left: 46px;
+        font-size: 25px;
+        position: relative;
+        top: -16px;
+        left: 29px;
+	}
+	.table{
+		line-height: 0.8;
 	}
 }
