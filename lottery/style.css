@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'bold'; 
+	src: url('Britannic_Bold_T.ttf'); 
+  }
+body{
+	display: flex;
+    background: url(bg_virtualsinger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 48px;
+    font-family: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+	line-height: 1;
+}
+table {
+	border-collapse: collapse;
+	min-width: 700px;
+	max-width: 750px;
+  }
+  
+  th,
+  td {
+	border: 2px solid black;
+	text-align: center; /* 设置文字居中对齐 */
+	min-height: 147px;
+  }
+.empty
+{
+	height: 136px;
+}
+.imgs{
+    max-width: 115px;
+    max-height: 150px;
+	vertical-align: middle;
+	position: relative;
+    right: 9px;
+  }
+.font{
+	font-size: 40px;
+    position: relative;
+    top: -31px;
+    left: 65px;
+	font-family: bold;
+	color: white;
+	text-shadow: 3px 0 #000,
+	-3px 0 #000,
+	0 3px #000,
+	0 -3px #000,
+	3px 3px #000,
+	-3px -3px #000,
+	3px -3px #000,
+	-3px 3px #000;
+	z-index:1;
+}
+.pink{
+	background-color: rgba(246,181,214,.7);
+}
+.purple{
+	background-color: rgba(114,79,170,.7);
+}
+.green{
+	background-color: rgba(180,188,176,.7);
+}
+.blue{
+	background-color: rgba(219,232,243,.7);
+}
