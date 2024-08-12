@@ -9,7 +9,8 @@ body{
 }
 .border{
     border: 2px solid #39c5bb;
-    width: max-content;
+    padding: 5px;
+    width: auto;
     margin-top: 30px;
     margin-right: auto;
     margin-bottom: auto;
