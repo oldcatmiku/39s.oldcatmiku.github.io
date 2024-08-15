@@ -156,6 +156,9 @@ dd a:hover {
     .title {
         font-size: 14px;
     } */
+    .bord{
+        background-color: #2b2b2b69;
+    }
     body{
         color: #FFF;
         background: url(phone.jpg);
