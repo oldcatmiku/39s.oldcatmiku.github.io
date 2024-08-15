@@ -1,7 +1,7 @@
 var animeList= [
 {
     "name": "玉子市场 ",
-    "img": "https://i0.hdslb.com/bfs/bangumi/67da3dae76e526a925b78b1d8abe21c870333491.jpg@330w_442h.webp",
+    "img": "anime/posters/05.webp",
     "url": "https://www.bilibili.com/bangumi/media/md116772",
     "introduce": "座落某个小镇的兔子商店街上，有一间日式饼店，住着一位十分喜欢饼类小吃的高中一年级女生——玉子。除了偶尔在店铺协助父亲，以及钻研新口味的饼类小吃外，她亦有跟学校的朋友参与羽毛球部活动。而饼店对面是同行的竞争对手，两边的父亲经常都因生意问题而喧哗。不过对方儿子——饼藏却自小跟玉子建立青梅竹马的关系，近日更不断隐约地表达心思，只是玉子没有特别注意，更常常被旁观的朋友拿出来扰攘一番。总而言之，玉子就是在商店街众人的护荫下，如此热闹地渡过每一天，生活可谓过得相当快乐。",
     "catalog": ""
@@ -127,7 +127,7 @@ for (let i = 0; i < animeList.length; i++) {
         catalogContent = animeList[i].catalog.replace(/href="\/play\//g, 'href="https://www.wedm3.com/play/');
     } else {
         // 如果 catalog 不存在，显示“直接去视频网站观看”
-        catalogContent = '<br><center>👉 直接去视频网站观看❤️</center>';
+        catalogContent = '<br><center>👉 直接去网页观看❤️</center>';
     }
 
     // 将修改后的内容插入到页面中
