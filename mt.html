@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="icon.png" >
+    <title>39s-moe</title>
+</head>
+<body style="background-color: rgb(23, 23, 23);">
+    <div class="img">
+        <img src="test/logo高清 白 修理_.png" height="343px" width="700px" alt="title_img">
+    </div>
+    <p id="page_div"></p>
+ 
+    <script language="javascript">
+        var num = 1; //倒计时的秒数
+        var URL = "https://www.bilibili.com/video/BV1taHxeYEuS/";
+        var id = window.setInterval('doUpdate()', 1000);
+        function doUpdate() {
+            if(num == 0) {
+                window.clearInterval(id);
+                window.location = URL;
+            }
+            num --;
+        }
+    </script>
+    <!-- <div id="warning-box"></div>
+    <script src="script.js"></script> -->
+</body>
+</html>
