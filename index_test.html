@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="icon.png" >
+    <title>39s-moe</title>
+    <style>
+        /* shinya sitebutton */
+        .sitebutton-wrap {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .sitebutton-shinya {
+            display: block;
+            width: 88px;
+            height: 31px;
+            background: #0a0a12;
+            border: 1px solid #9999cc;
+            box-shadow: 0 0 0 1px #0a0a12, 0 0 6px #7766bb88;
+            text-decoration: none;
+            overflow: hidden;
+            position: relative;
+            image-rendering: pixelated;
+            transition: box-shadow 0.2s, border-color 0.2s;
+        }
+
+        .sitebutton-shinya:hover {
+            border-color: #ccaaff;
+            box-shadow: 0 0 0 1px #0a0a12, 0 0 10px #aa88ffcc;
+        }
+
+        .sitebutton-shinya svg {
+            width: 88px;
+            height: 31px;
+            display: block;
+        }
+
+        /* scanline flicker on hover */
+        .sitebutton-shinya::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(
+                to bottom,
+                transparent 0px,
+                transparent 1px,
+                rgba(0,0,0,0.25) 1px,
+                rgba(0,0,0,0.25) 2px
+            );
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <img src="title.png" height="300px" width="300px" alt="title_img">
+    </div>
+    <div class="border">
+<pre>
+    Welcome to oldcat's 39s site  ❀
+
+    _      __
+    '  )  /   )  
+     -(  (__,/  __     ____  _   _
+  (__ )     /  _)  x  / / / (_) /-
+           /                    ￣
+
+                         _(≧∇≦」∠)_
+</pre>
+    </div>
+    <a href="https://virtualobserver.moe/"><img src="https://virtualobserver.moe/images/sitebutton.png"></a>
+    <span class="sitebutton-wrap">
+        <a class="sitebutton-shinya" href="https://shinya.39s.moe/" title="shinya.39s.moe" target="_blank" rel="noopener">
+            <svg viewBox="0 0 88 31" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+                <!-- background -->
+                <rect width="88" height="31" fill="#0a0a12"/>
+
+                <!-- subtle starfield -->
+                <rect x="5" y="3" width="1" height="1" fill="#ffffff44"/>
+                <rect x="14" y="8" width="1" height="1" fill="#ffffff33"/>
+                <rect x="23" y="2" width="1" height="1" fill="#ffffff55"/>
+                <rect x="31" y="11" width="1" height="1" fill="#ffffff33"/>
+                <rect x="40" y="5" width="1" height="1" fill="#ffffff44"/>
+                <rect x="52" y="9" width="1" height="1" fill="#ffffff33"/>
+                <rect x="63" y="3" width="1" height="1" fill="#ffffff44"/>
+                <rect x="74" y="7" width="1" height="1" fill="#ffffff55"/>
+                <rect x="82" y="12" width="1" height="1" fill="#ffffff33"/>
+                <rect x="8" y="18" width="1" height="1" fill="#ffffff22"/>
+                <rect x="19" y="22" width="1" height="1" fill="#ffffff33"/>
+                <rect x="60" y="20" width="1" height="1" fill="#ffffff22"/>
+                <rect x="78" y="25" width="1" height="1" fill="#ffffff33"/>
+
+                <!-- left moon/circle accent -->
+                <rect x="3" y="9" width="7" height="7" rx="3" fill="none" stroke="#9977cc" stroke-width="1"/>
+                <rect x="5" y="11" width="3" height="3" fill="#cc99ff55"/>
+
+                <!-- "shinya" text - pixel-style lettering -->
+                <!-- S -->
+                <rect x="13" y="11" width="5" height="1" fill="#ccaaff"/>
+                <rect x="13" y="12" width="1" height="2" fill="#ccaaff"/>
+                <rect x="13" y="14" width="5" height="1" fill="#ccaaff"/>
+                <rect x="17" y="15" width="1" height="2" fill="#ccaaff"/>
+                <rect x="13" y="17" width="5" height="1" fill="#ccaaff"/>
+                <!-- H -->
+                <rect x="20" y="11" width="1" height="7" fill="#ccaaff"/>
+                <rect x="24" y="11" width="1" height="7" fill="#ccaaff"/>
+                <rect x="20" y="14" width="5" height="1" fill="#ccaaff"/>
+                <!-- I -->
+                <rect x="27" y="11" width="3" height="1" fill="#ccaaff"/>
+                <rect x="28" y="12" width="1" height="5" fill="#ccaaff"/>
+                <rect x="27" y="17" width="3" height="1" fill="#ccaaff"/>
+                <!-- N -->
+                <rect x="32" y="11" width="1" height="7" fill="#ccaaff"/>
+                <rect x="36" y="11" width="1" height="7" fill="#ccaaff"/>
+                <rect x="33" y="12" width="1" height="1" fill="#ccaaff"/>
+                <rect x="34" y="13" width="1" height="1" fill="#ccaaff"/>
+                <rect x="35" y="14" width="1" height="1" fill="#ccaaff"/>
+                <!-- Y -->
+                <rect x="39" y="11" width="1" height="1" fill="#ccaaff"/>
+                <rect x="43" y="11" width="1" height="1" fill="#ccaaff"/>
+                <rect x="40" y="12" width="1" height="1" fill="#ccaaff"/>
+                <rect x="42" y="12" width="1" height="1" fill="#ccaaff"/>
+                <rect x="41" y="13" width="1" height="5" fill="#ccaaff"/>
+                <!-- A -->
+                <rect x="46" y="11" width="3" height="1" fill="#ccaaff"/>
+                <rect x="45" y="12" width="1" height="6" fill="#ccaaff"/>
+                <rect x="49" y="12" width="1" height="6" fill="#ccaaff"/>
+                <rect x="45" y="14" width="5" height="1" fill="#ccaaff"/>
+
+                <!-- .39s.moe in smaller text below -->
+                <text x="13" y="26" font-family="monospace" font-size="4" fill="#9966cc" letter-spacing="0.3">.39s.moe</text>
+
+                <!-- right decoration: small ❀ flower pixel -->
+                <rect x="56" y="12" width="1" height="1" fill="#ff99cc"/>
+                <rect x="57" y="11" width="1" height="1" fill="#ff99cc"/>
+                <rect x="58" y="12" width="1" height="1" fill="#ff99cc"/>
+                <rect x="57" y="13" width="1" height="1" fill="#ff99cc"/>
+                <rect x="57" y="12" width="1" height="1" fill="#ffffff"/>
+
+                <rect x="60" y="15" width="1" height="1" fill="#ffcc88"/>
+                <rect x="61" y="14" width="1" height="1" fill="#ffcc88"/>
+                <rect x="62" y="15" width="1" height="1" fill="#ffcc88"/>
+                <rect x="61" y="16" width="1" height="1" fill="#ffcc88"/>
+                <rect x="61" y="15" width="1" height="1" fill="#ffffff"/>
+
+                <!-- glowing bottom-right bar accent -->
+                <rect x="55" y="20" width="28" height="1" fill="#7755aa44"/>
+                <rect x="55" y="21" width="28" height="1" fill="#9966cc55"/>
+                <rect x="55" y="22" width="28" height="1" fill="#7755aa33"/>
+
+                <!-- right pixel cat ear silhouette (tiny) -->
+                <rect x="70" y="8" width="3" height="4" fill="#33224455"/>
+                <rect x="74" y="9" width="2" height="3" fill="#33224455"/>
+                <rect x="68" y="12" width="10" height="6" rx="1" fill="#44334466"/>
+            </svg>
+        </a>
+    </span>
+    <!-- <div id="warning-box"></div>
+    <script src="script.js"></script> -->
+</body>
+</html>
