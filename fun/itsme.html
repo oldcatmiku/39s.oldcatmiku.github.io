@@ -275,7 +275,7 @@ function build(S, G) {
         if (!img) { img = document.createElement('img'); div.prepend(img); }
         img.src = ev.target.result;
         lbl.style.opacity = '0';
-        rmBtn.classList.add('visible');
+
         div.classList.add('has-image');
       };
       reader.readAsDataURL(file);
