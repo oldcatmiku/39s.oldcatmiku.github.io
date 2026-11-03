@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>oldcat's Site</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table style="width: 900px">
+        <tr style="height: 200px; vertical-align: bottom;">
+            <th colspan="2">
+                <a href="/index.html" class="no-decoration">
+                    <h2 class="site-title">oldcat's Site</h2>
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <td style="width: 200px;">
+                <button onclick="window.location.href='/index.html'">Home</button>
+                <button onclick="window.location.href='/about.html'">About</button>
+                <button onclick="window.location.href='/thoughts.html'">Thoughts</button>
+
+
+                <h2>Status</h2>
+                <p style="font-size: 12px;" id="status-text"></p>
+
+                <h2>Avatar</h2>
+                <p>
+                    <img src="/img/avatar.jpg" alt="avatar" class="avatar">
+                </p>
+
+                <h2>My Other Websites</h2>
+                <p>
+                    <a href="https://shinya.39s.moe" target="_blank">Shinya Channel</a>
+                    <br>
+                    <a href="https://txc.39s.moe" target="_blank">TXC 团队主页</a>
+                    
+                </p>
+
+
+                <h2>Links</h2>
+                <p style="width: 200px;">
+                    <a href="https://temstuff.neocities.org/" target="_blank" style="text-decoration: none;">
+                        <img src="/img/88x31/tem_stuff.gif" alt="tem_stuff" class="icons">
+                    </a>
+                    <a href="https://dokode.moe/" target="_blank" style="text-decoration: none;">
+                        <img src="/img/88x31/dokodemobutton3.gif" alt="dokodemo" class="icons">
+                    </a>
+                    <a href="https://virtualobserver.moe/" target="_blank" style="text-decoration: none;">
+                        <img src="/img/88x31/virtualobserver.png" alt="virtualobserver" class="icons">
+                    </a>
+                    <a href="https://electric-tenshi.nekoweb.org/mikutcg/tcg" target="_blank" style="text-decoration: none;">
+                        <img src="/img/88x31/mikutcg88x31.png" alt="mikutcg" class="icons">
+                    </a>
+                </p>
+                <br>
+                </td>
+                <td style="width: 700px; padding: 18px; padding-right: 60px;">
+                    <p>在这里随意写一些想法……</p>
+                    <h1>thoughts</h1>
+                    <p id="auto_push" style="font-size: 12px"></p>
+                </td>
+        </tr>
+    </table>
+    <script src="js/auto_push.js"></script>
+    <script src="js/status.js"></script>
+</body>
+</html>
